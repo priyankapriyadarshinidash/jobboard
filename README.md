@@ -43,3 +43,11 @@ A robust Java & Spring Boot RESTful API for a Job Board and Applicant Tracking S
    ```bash
    git clone [https://github.com/arpitanibedita/jobboard.git](https://github.com/arpitanibedita/jobboard.git)
    cd job-board-ats
+   src/main/java/com/jobboard/
+├── config/          # Security, Mail, and File Upload configs
+├── controller/      # REST API Controllers
+├── dto/             # Request & Response Data Transfer Objects
+├── model/           # JPA Entities (User, Job, Application, Role)
+├── repository/      # Spring Data JPA Repositories
+├── service/         # Business Logic (FileStorageService, EmailService, JobService)
+└── security/        # JWT Filters, UserDetailsService
